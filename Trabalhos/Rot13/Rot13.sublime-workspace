@@ -1,0 +1,424 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"te",
+				"testa_2_listas"
+			],
+			[
+				"lista",
+				"lista2"
+			],
+			[
+				"li",
+				"lista1"
+			],
+			[
+				"con",
+				"continua"
+			],
+			[
+				"testa",
+				"testa_strin"
+			],
+			[
+				"no",
+				"novo_arquivo"
+			],
+			[
+				"ar",
+				"arq_origem"
+			],
+			[
+				"templ",
+				"template_name"
+			],
+			[
+				"temp",
+				"template_name"
+			],
+			[
+				"get",
+				"get_context_data"
+			],
+			[
+				"teste",
+				"teste2"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Funcao.py",
+			"settings":
+			{
+				"buffer_size": 1297,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "TestaRot13.py",
+			"settings":
+			{
+				"buffer_size": 1801,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/gpzim98/Documentos/PythonCodes/CursoIntermediarioPythonDjango/ManipulacaoArquivo.py",
+			"settings":
+			{
+				"buffer_size": 590,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 54.0,
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"isntall",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/usr/lib/python2.7/codecs.py",
+		"/home/gpzim98/Documentos/Rot13/arquivo_teste.crp",
+		"/home/gpzim98/Documentos/Rot13/arquivo_teste.txt",
+		"/home/gpzim98/Documentos/Rot13/aaa.txt",
+		"/home/gpzim98/Documentos/Rot13/Funcao",
+		"/home/deploy/sites/gpblog/wsgi/openshift/postagens/templates/postagens/postagem_detail.html",
+		"/home/deploy/sites/gpblog/wsgi/openshift/templates/template_base.html",
+		"/home/deploy/sites/gpblog/wsgi/openshift/ckeditor/static/ckeditor/ckeditor/plugins/find/dialogs/find.js",
+		"/home/deploy/sites/gpblog/wsgi/openshift/ckeditor/fields.py",
+		"/home/deploy/sites/gpblog/wsgi/openshift/configuracoes/models.py",
+		"/home/deploy/sites/gpblog/wsgi/openshift/postagens/models.py",
+		"/home/deploy/sites/gpblog/.openshift/action_hooks/post_deploy",
+		"/home/deploy/sites/gpblog/wsgi/openshift/postagens/urls.py",
+		"/home/deploy/sites/gpblog/setup.py",
+		"/home/deploy/sites/gpblog/wsgi/openshift/manage.py",
+		"/home/deploy/sites/gpblog/wsgi/openshift/postagens/admin.py",
+		"/home/deploy/sites/gpblog/wsgi/openshift/views.py",
+		"/home/deploy/sites/gpblog/wsgi/openshift/urls.py",
+		"/home/deploy/sites/gpblog/wsgi/openshift/postagens/views.py",
+		"/home/deploy/sites/gpblog/wsgi/openshift/settings.py",
+		"/home/deploy/sites/gpblog/wsgi/openshift/templates/home.html",
+		"/home/deploy/sites/gpblog/wsgi/openshift/templates/404.html",
+		"/home/gpzim98/workspace/AlfredoImoveis.sublime-project",
+		"/home/deploy/sites/PetProjectDjango/cbv/templates/cbv/tempmanual.html",
+		"/home/deploy/sites/PetProjectDjango/cbv/templates/cbv/tempview.html",
+		"/home/deploy/sites/PetProjectDjango/cbv/templates/cbv/home.html",
+		"/media/sda3/Dropbox/Django videos/Forms PyCursos/Forms Django",
+		"/home/deploy/sites/PetProjectDjango/cbv/urls.py",
+		"/home/deploy/sites/PetProjectDjango/cbv/admin.py",
+		"/home/deploy/sites/PetProjectDjango/cbv/templates/cbv/getcontgata.html",
+		"/home/deploy/sites/PetProjectDjango/cbv/models.py",
+		"/home/deploy/sites/PetProjectDjango/cbv/templates/cbv/detailview.html",
+		"/home/deploy/sites/PetProjectDjango/cbv/views.py",
+		"/home/deploy/sites/PetProjectDjango/cbv/templates/cbv/tempNameView.html",
+		"/home/deploy/sites/finance/wsgi/openshift/core/templates/core/movimento/movimento_novo.html",
+		"/home/deploy/sites/PetProjectDjango/PetProjectDjango/urls.py",
+		"/home/deploy/sites/PetProjectDjango/PetProjectDjango/settings.py",
+		"/home/deploy/sites/finance/wsgi/openshift/core/templates/core/dashboard.html",
+		"/home/deploy/sites/finance/wsgi/openshift/templates/template_base.html",
+		"/home/deploy/sites/finance/wsgi/openshift/core/templates/core/form_filtra_dash.html",
+		"/home/deploy/sites/finance/wsgi/openshift/core/urls.py",
+		"/home/deploy/sites/finance/wsgi/openshift/core/forms/form_categoria.py",
+		"/home/deploy/sites/finance/wsgi/openshift/core/templates/core/movimento/form_movimento.html",
+		"/home/deploy/sites/finance/wsgi/openshift/core/templates/core/movimento/movimento.html",
+		"/home/deploy/sites/finance/wsgi/openshift/core/templates/core/movimento/movimento_detalhe.html",
+		"/home/deploy/sites/finance/wsgi/openshift/core/views/views_movimento.py",
+		"/home/deploy/sites/finance/wsgi/openshift/core/templates/core/movimento/form_filtra_movimentos.html",
+		"/home/deploy/sites/finance/wsgi/openshift/core/templates/core/movimento/form_manual.html",
+		"/home/deploy/sites/finance/wsgi/openshift/core/views/views_gerais.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"encode",
+			"rot_13",
+			"def encode",
+			"encode",
+			"MEDIA_ROOT",
+			"SITE_URL",
+			"()",
+			"template",
+			"html",
+			"direct_to",
+			"all",
+			"url",
+			"versão",
+			"        \n",
+			"\n	",
+			"inclu",
+			"retorna_movimentos_usuario",
+			"calcula_movimentacoes_mes_reais",
+			"mov_reais_mes"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Funcao.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1297,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								645,
+								645
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "TestaRot13.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1801,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1192,
+								1192
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 357.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/gpzim98/Documentos/PythonCodes/CursoIntermediarioPythonDjango/ManipulacaoArquivo.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 590,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								461,
+								461
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 29.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 25.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "Rot13.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"mode",
+				"wsgi/openshift/postagens/models.py"
+			],
+			[
+				"url",
+				"wsgi/openshift/urls.py"
+			],
+			[
+				"settin",
+				"wsgi/openshift/settings.py"
+			],
+			[
+				"models",
+				"wsgi/openshift/postagens/models.py"
+			],
+			[
+				"sett",
+				"wsgi/openshift/settings.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"alf",
+				"~/workspace/AlfredoImoveis.sublime-project"
+			],
+			[
+				"fina",
+				"~/workspace/Finance.sublime-project"
+			],
+			[
+				"fin",
+				"~/workspace/Finance.sublime-project"
+			],
+			[
+				"",
+				"/home/deploy/sites/gpblog/wsgi/openshift/templates/GregoryPortfsublime-project.sublime-workspace"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 241.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
