@@ -1,67 +1,58 @@
 #!/usr/bin/env python
 
+# Importando as funcoes do arquivo que tem todas as funcoes (Funcao.py)
 from Funcao import Rot13
-def testa_dicionario():
-	dicionario = {'a':1,'b':2,'c':3,'d':4,'e':5,'f':6,'g':7,'h':8,'i':9,'j':10,'k':11,'l':12,'m':13,'n':14,'o':15,'p':16,'q':17,'r':18,'s':19,'t':20,'u':21,'v':21,'w':23,'x':24,'y':25,'z':26}
-	c = Rot13()
-	for i in dicionario:
-		print c.encripta(i)
 
-def testa_lista():		
-	lista = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
-	c = Rot13()
-	for i in lista:
-		print c.encripta(i)
-
-def testa_tupla():		
-	tupla = ('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z')
-	c = Rot13()
-	for i in tupla:
-		print c.encripta(i)
-
-def testa_string():		
-	#Opcional: Com letras maiusculas e minusculas
-	string = "AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz"
-	c = Rot13()
-	for i in string:
-		print c.encripta(i)
-
-def testa_2_listas():		
-	lista1 = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j',   'k', 'l', 'm']
-	lista2 = ['n', 'o', 'p', 'q', 'r', 's', 't',  'u', 'v','w', 'x', 'y', 'z']
-
-	c = Rot13()
-
-	[(c.encripta(x),c.encripta(y)) for x in lista1 for y in lista2]
-	###???????
-		
 # Execucao inicial
+# Aqui estamos montando o menu que sera mostrado para o usuario
 MENU = """
 	1 - Para testar com Dicionarios{}\n
 	2 - Para testar com Listas[]\n
 	3 - Para testar com Tuplas()\n
 	4 - Para testar com Strings ' ' \n
-	5 - Para testar com 2 Strings ' ' \n
+	5 - Para testar com 2 Listas [] \n
+	6 - Para testar com 2 Strings ' ' \n
+	7 - Criptografar um arquivo (.txt) ' ' \n
 
 	DIGITE A OPCAO ESCOLHIDA: 
 """
+# Variavel que determina se o programa continua executando
 continua = 'sim'
 
+# a variavel C e a que pode chamar as funcoes do arquivo Funcoao.py
+c = Rot13()
+
+#Aqui um loop comum pra ficar perguntando ao usuario se ele quer continuar executando o programa
 while continua == 'sim':
+	# Imprimo o menu e pego a opcao que ele escolheu
 	opc = raw_input(MENU)
 
+	# De acorco com a escolha do usuario, vai entrar em um destes ifs e chamar a funcao correpondentem Funcao.py
 	if opc == '1':
-		testa_dicionario()		
+		resultado = c.encripta_dicionario(raw_input("Digite uma frase para ser criptografada: "))
+		print resultado
 	elif opc == '2':
-		testa_lista()
+		resultado = c.encripta_lista(raw_input("Digite uma frase para ser criptografada: "))
+		print resultado
 	elif opc == '3':
-		testa_tupla()
+		resultado = c.encripta_tupla(raw_input("Digite uma frase para ser criptografada: "))
+		print resultado
 	elif opc == '4':
-		testa_string()
+		resultado = c.encripta_string(raw_input("Digite uma frase para ser criptografada: "))
+		print resultado
 	elif opc == '5':
-		testa_2_listas()
+		resultado = c.encripta_com_2_listas(raw_input("Digite uma frase para ser criptografada: ").lower())
+		print resultado
+	elif opc == '6':
+		resultado = c.encripta_com_2_strings(raw_input("Digite uma frase para ser criptografada: "))
+		print resultado
+	elif opc == '7':
+		# Pergunta ao usuario se ele quer mostrar o arquivo criptografado no final
+		mostra_tela = raw_input('Digite MOSTRAR para que ao final seja exibido o arquivo original e o criptografado: ').lower()		
+		c.abre_arquivo_criptografa(raw_input('Informe o caminho do arquivo a ser criptografado: '), (mostra_tela == 'mostrar'))
 	else:
 		print 'Opcao invalida'
 	continua = raw_input('Digite sim para continuar ... ')
+# Caso o usuario nao digite SIM para continuar a execucao do programa ele sai
 else:
 	print 'Bye :p'
