@@ -30,6 +30,9 @@ elif escolha == 4:
 elif escolha == 5:
 	print 'VOCE ESTA USANDO A CRIPTOGRAFIA ROT13 COM 2 STRINGS\n'
 	print algoritimos.root13_com_2_strings(raw_input('Digite algo para ser criptografado: '))
+elif escolha == 6:
+	print 'VOCE ESTA USANDO A CRIPTOGRAFIA ROT13 COM A FUNÇÃO MAKETRANS\n'
+	print algoritimos.root13_com_maketrans(raw_input('Digite algo para ser criptografado: '))
 elif escolha == 7:
 	print 'VOCE ESTA USANDO A CRIPTOGRAFIA ROT13 COM A FUNÇÃO MAKE TRANS\n'
 	mostrar = raw_input("Digite SIM para mostrar o arquivo criptografado na tela: ").lower()

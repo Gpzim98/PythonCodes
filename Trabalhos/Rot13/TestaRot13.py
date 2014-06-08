@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# coding: utf-8
 
 # Importando as funcoes do arquivo que tem todas as funcoes (Funcao.py)
 from Funcao import Rot13
@@ -13,6 +14,7 @@ MENU = """
 	5 - Para testar com 2 Listas [] \n
 	6 - Para testar com 2 Strings ' ' \n
 	7 - Criptografar um arquivo (.txt) ' ' \n
+	8 - Criptografar usando a função Maketrans ' ' \n
 
 	DIGITE A OPCAO ESCOLHIDA: 
 """
@@ -50,6 +52,8 @@ while continua == 'sim':
 		# Pergunta ao usuario se ele quer mostrar o arquivo criptografado no final
 		mostra_tela = raw_input('Digite MOSTRAR para que ao final seja exibido o arquivo original e o criptografado: ').lower()		
 		c.abre_arquivo_criptografa(raw_input('Informe o caminho do arquivo a ser criptografado: '), (mostra_tela == 'mostrar'))
+	elif opc == '8':
+		c.encripta_maketrans(raw_input("Digite uma frase para ser criptografada: "))
 	else:
 		print 'Opcao invalida'
 	continua = raw_input('Digite sim para continuar ... ')

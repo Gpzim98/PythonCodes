@@ -143,8 +143,6 @@ def  root13_arquivo( caminho, exibir_na_tela=True):
     arquivo_2.close()
     arquivo_1.close()
 
-    #/home/gpzim98/Documentos/PythonCodes/Trabalhos/Rot13_2/tese.txt
-
 # Função que altera a extensão do arquivo
 def muda_extensao_arquivo(caminho):
     # Percorre o nome do arquivo ate achar um ponto, 

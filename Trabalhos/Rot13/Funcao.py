@@ -1,6 +1,9 @@
 #!/usr/bin/env python
+# coding: utf-8
+
 # Biblioteca do Python que criptografa em root13 (Foi usado apenas em um exemplo troca_extensao_arquivo)
 import codecs
+import string
 
 # Classe Rot13 e a que tera todas as funcoes
 class Rot13(object):
@@ -170,13 +173,11 @@ class Rot13(object):
                     resultado += i
         return resultado
 
-# Descomente as linhas abaixo para testar no terminal - APENAS SE QUISER TESTAR
-# c = Rot13()
-# print 'Codecs: ' + c.encripta('Hello  foobar  uryyb')
-# print 'Dicionario: ' + c.encripta_dicionario('Hello  foobar  uryyb')
-# print 'Lista: ' + c.encripta_lista('Hello  foobar  uryyb')
-# print 'Tupla: ' + c.encripta_tupla('Hello  foobar  uryyb')
-# print 'String: ' + c.encripta_string('Hello  foobar  uryyb')
-# print '2 Listas: ' + c.encripta_com_2_listas('hello  foobar  uryyb')
-# print '2 Strings: ' + c.encripta_com_2_strings('Hello  foobar  uryyb')
-#c.abre_arquivo_criptografa('/home/gpzim98/Documentos/PythonCodes/Trabalhos/Rot13/arquivo_teste.txt', True)
+    #Função Maketrans da biblioteca Strings do PYthon
+    def encripta_maketrans(self, texto):
+        # Conjunto dos caracteres do alfabeto sob a lógica do Rot13
+        alfabeto = string.maketrans("ABCDEFGHIJKLMabcdefghijklmNOPQRSTUVWXYZnopqrstuvwxyz", 
+            "NOPQRSTUVWXYZnopqrstuvwxyzABCDEFGHIJKLMabcdefghijklm")
+        # A função translate que faz a conversão 
+        # recebe o que deve ser convertido também o nome da técnica a ser usado que neste caso é o rot_13
+        print string.translate(texto, alfabeto)      
