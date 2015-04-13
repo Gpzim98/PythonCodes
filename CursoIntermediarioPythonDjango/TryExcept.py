@@ -5,4 +5,3 @@ try:
 except Exception, e:
     if str(e) == 'integer division or modulo by zero':
         print 'ocorreu um erro: ', str(e)
-
