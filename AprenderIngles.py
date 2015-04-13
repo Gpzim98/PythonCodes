@@ -1,7 +1,7 @@
 # coding:utf8
 import random
 
-points = 11
+points = 0
 name = ''
 phrase_congrat =\
     """Parabéns %s, você obteve um excelente
@@ -53,7 +53,7 @@ def store_score(name):
     pass
 
 
-name = raw_input("Olá, vamos jogar! Qual o seu nome?")
+name = raw_input("Olá, vamos jogar! Qual o seu nome?\n")
 store_score(name)
-level = input("1: To level begginer\n2: To level intermediate")
+level = input("1: To level begginer\n2: To level intermediate\n")
 play(level)

@@ -1,6 +1,8 @@
 # encoding: utf-8
 __author__ = 'gpzim98'
 from abc import ABCMeta, abstractmethod
+
+
 class ClasseAbstrata(object):
     __metaclass__ = ABCMeta
 
@@ -8,13 +10,16 @@ class ClasseAbstrata(object):
     def meu_metodo_abstrato(self):
         print 'My abstract method'
 
+
 class ClasseConcreta(ClasseAbstrata):
+
     def meu_metodo_abstrato(self):
+        print 'Metodo da classe concreta'
         super(ClasseConcreta, self).meu_metodo_abstrato()
 
-#As duas linhas abaixo irão gerar o erro de instância de classe abstrata
+# As duas linhas abaixo irão gerar o erro de instância de classe abstrata
 #a = ClasseAbstrata()
-#a.meu_metodo_abstrat()
+# a.meu_metodo_abstrat()
 
 a = ClasseConcreta()
 a.meu_metodo_abstrato()
