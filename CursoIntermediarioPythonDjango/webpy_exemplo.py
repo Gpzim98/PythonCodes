@@ -11,10 +11,32 @@ app = web.application(urls, globals())
 
 class hello:
     def GET(self):
-        return 'Hello World from GET of hello page'
+        return '''
+            <!DOCTYPE html>
+            <html>
+                <body>
+
+                <form method="POST">
+                First name:<br>
+                <input type="text" name="firstname">
+                <br>
+                Last name:<br>
+                <input type="text" name="lastname">
+                <input type="submit" value="Submit">
+                </form>
+
+                <p>Note that the form itself is not visible.</p>
+                <p>Also note that the default width of a text field is 20 characters.</p>
+
+                </body>
+            </html>
+        '''
 
     def POST(self):
-        return 'Requisicao com post'
+        firstname = web.input()['firstname']
+        lastname = web.input()['lastname']
+
+        return 'Requisicao com POST'
 
 
 class admin:
