@@ -1,0 +1,32 @@
+$def with (name)
+
+<html>
+<head>
+    <title>Bootstrap CDN Simple Example</title>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<h1>Cadastro</h1>
+
+    $if name:
+        I just wanted to say <em>hello</em> to $name.
+    $else:
+    <em>Hello</em>, world! 
+
+</br>
+Formulario
+    <form method="POST">
+        First name:<br>
+        <input type="text" name="firstname">
+        <br>
+        Last name:<br>
+        <input type="text" name="lastname">
+        <button type="submit">Enviar</button>
+    </form>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+</body>
+</html>

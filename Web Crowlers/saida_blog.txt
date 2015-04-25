@@ -1,0 +1,34 @@
+1 - Djangomoc - Curso presencial de Python e Django
+1 - Utilizando o sistema de mensagens do Django
+1 - Problemas ao fazer push no Git
+1 - Configurando o Java na boa (Ubuntu)
+1 - Um pouco sobre o sistema de templates do Django
+1 - Conexão remota no Linux com RDesktop
+1 - Métodos mágicos em Python
+1 - Snippets Sublime text
+1 - Web Service REST com Python e Django
+1 - Django Signals
+2 - Mostrando o branch atual na linha de comando
+2 - Gunicorn com problemas para levantar aplicação Django
+2 - Problemas ao rodar os testes automatizados do Django
+2 - Baixando uma Play List inteira do YouTube
+2 - Interagindo com a aplicação através de eventos do teclado
+2 - Formulário Read Only Django
+2 - Tipos de captalização em Python
+2 - Capturando a data de um componente date HTML
+2 - Consultas ao banco de dados com Django
+2 - Dicionários em Python
+3 - Consultas case-sensiteve e insensitive ao banco de dados com Django
+3 - Copa em 6 linhas \o/
+3 - Django Models - Destrinchando
+3 - Class Meta
+3 - Formatando datas em Models(Unicode) e views
+3 - Formatando datas em Models(Unicode) e views
+3 - Formatando datas em Models(Unicode) e views
+3 - Configurando o auto-save do Sublime text 2 e 3
+3 - Como não errar (Muito) na escolha das cores do seu projeto web
+3 - Criando uma página 404 personalizada no Django
+4 - Capturando a lista de erros no form
+4 - Utilizando o Ckeditor no Django
+4 - Calculando a diferença entre duas datas
+4 - Capturando o objeto informado no id da URL

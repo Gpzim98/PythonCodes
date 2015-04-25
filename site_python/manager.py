@@ -3,11 +3,12 @@ __author__ = 'gpzim98'
 
 import web
 
-from controllers.controller_principal import Home, Admin
+from controllers.controller_principal import Home, Admin, OutraPagina
 
 urls = (
     '/', 'Home',
-    '/admin', 'Admin'
+    '/admin/(.*)', 'Admin',
+    '/teste/', 'OutraPagina'
 )
 
 app = web.application(urls, globals())

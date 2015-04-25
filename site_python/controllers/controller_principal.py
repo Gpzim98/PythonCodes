@@ -8,7 +8,6 @@ class Home(object):
         self.templates = web.template.render('templates/')
 
     def GET(self):
-        i = web.input(name="Gregory")
 
         form = ClientForm()
 
@@ -29,8 +28,26 @@ class Admin(object):
     def __init__(self):
         self.templates = web.template.render('templates/')
 
-    def GET(self):
-        return self.templates.admin.index(name='Gregory')
+    def GET(self, name):
+        i = web.input(name=None)
+        return self.templates.admin.index(i.name)
 
     def POST(self):
         return 'Admin'
+
+
+class OutraPagina(object):
+
+    def __init__(self):
+        self.templates = web.template.render('templates/')
+
+    def GET(self):
+        name = 'Greg'
+        return self.templates.teste(name)
+
+    def POST(self):
+        i = web.input()
+        firstname = i['firstname']
+        lastname = i['lastname']
+        frase = 'Seja bem vindo %s %s' % (firstname, lastname)
+        return self.templates.teste(frase)
