@@ -2,7 +2,8 @@ def multipliers():
   # return [lambda x  : (i * x) for i in range(3)]
 
   # Solution
-  return [lambda x  , i=i: (i * x) for i in range(3)]
+  return [lambda x, i=i : (i * x) for i in range(3)]
+  
     
 print [m(4) for m in multipliers()]
 
