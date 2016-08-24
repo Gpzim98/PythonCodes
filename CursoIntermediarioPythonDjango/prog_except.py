@@ -16,7 +16,7 @@ print "Existe:", readfile("yes.txt", 5)
 
 class NotFound(Exception): pass
 class InvalidKey(Exception): pass
-
+    
 def find(collection, elem):
     try:
         return collection[elem]
