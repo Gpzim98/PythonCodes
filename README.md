@@ -90,9 +90,10 @@ f(t)
 l = [3,3,3]
 f(l)
 
-# if you put * in the assinment parameters you should call the function puttin *
+# if you put * in the assinment parameters you should call the function puttin
 
-def f2(**args): # **kwargs allows you to handle named arguments that you have not defined in advance
+def f2(**args):
+    # **kwargs allows you to handle named arguments that you have not defined in advance
     print(type(args)) # print dict
     for name, value in args.iteritems():
         print name, value
@@ -205,6 +206,10 @@ n = [2,4,6,8]
 print map(lambda x: x**2, n)
 [4, 16, 36, 64]
 
+Python 3
+l = ['1', '2']
+l = list(map(int, l))
+
 24 - ########## Reduce
 n = [2,3,4,5,6]
 print reduce(lambda x,  y : x + y, n)
@@ -217,3 +222,7 @@ print filter(lambda x : x if x % 2 == 0 else None, n)
 
 
 26 - ########## Shallow copy and Deep Copy
+
+27 - ########## input
+input().strip()
+Remove spaces from the begining and ending of string inputed
