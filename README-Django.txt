@@ -1,18 +1,21 @@
 * 1 -
-Minimum Django Script
+# Minimum Django Script
 import sys
 import traceback
 import os
 
-sys.path.append("/etc/myfolder/")
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'project.settings')
-
 import django
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'project.settings')
 django.setup()
 
 def main():
     pass
 
 if __name__ == "__main__":
-    main()vdfdg
-asdfasdf
+    main()
+    
+    
+* 2 - 
+# Include one path in python path
+
+sys.path.append("/etc/myfolder/")
