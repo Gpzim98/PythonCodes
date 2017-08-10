@@ -19,3 +19,10 @@ if __name__ == "__main__":
 # Include one path in python path
 
 sys.path.append("/etc/myfolder/")
+
+* 3 - Response DRF dictionary
+from rest_framework.response import Response
+
+                return Response({'errors': 'There was problem to generate the proposal',
+                                 'null_before_values': True},
+                                status=status.HTTP_406_NOT_ACCEPTABLE)
