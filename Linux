@@ -1,0 +1,2 @@
+** Find file terminal
+find ~/ -type f -name "generate_interval.py"
